@@ -1,6 +1,6 @@
 FROM node:12
 
-MAINTAINER samudu rajesh kumar
+MAINTAINER dileep
 
 COPY . /src/app
 
@@ -11,4 +11,4 @@ RUN npm install -f && \
 
 EXPOSE 3000
 
-ENTRYPOINT npm run dev
+ENTRYPOINT npm run ui
